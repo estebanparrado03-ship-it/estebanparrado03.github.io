@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Clásico - Real Madrid vs FC Barcelona</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #222;
+        }
+        header {
+            background: linear-gradient(to right, #ffffff, #004d98, #a50044);
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #222;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+        section {
+            background: white;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>El Clásico</h1>
+    <p>Real Madrid vs FC Barcelona</p>
+</header>
+
+<nav aria-label="Menú principal">
+    <a href="#info">Información</a>
+    <a href="#equipos">Equipos</a>
+    <a href="#figuras">Figuras</a>
+    <a href="#registro">Registro</a>
+</nav>
+
+<main>
+
+<section id="info">
+    <h2>Detalles del Partido</h2>
+    <p>Disfruta uno de los encuentros más esperados del fútbol mundial. El Clásico reúne a dos gigantes históricos en un duelo lleno de emoción.</p>
+
+    <p><strong>Fecha:</strong> 15 de marzo de 2026</p>
+    <p><strong>Lugar:</strong> Estadio Santiago Bernabéu</p>
+
+    <img src="assets/clasico.jpg" alt="Estadio Santiago Bernabéu lleno durante un clásico entre Real Madrid y Barcelona" width="100%">
+</section>
+
+<section id="equipos">
+    <h2>Equipos</h2>
+
+    <article>
+        <h3>Real Madrid</h3>
+        <p>Club histórico con múltiples títulos internacionales y una plantilla llena de estrellas.</p>
+    </article>
+
+    <article>
+        <h3>FC Barcelona</h3>
+        <p>Equipo reconocido por su estilo de juego y cantera de jugadores talentosos.</p>
+    </article>
+</section>
+
+<section id="figuras">
+    <h2>Jugadores destacados</h2>
+    <ul>
+        <li>Vinícius Jr.</li>
+        <li>Jude Bellingham</li>
+        <li>Robert Lewandowski</li>
+        <li>Pedri</li>
+    </ul>
+</section>
+
+<section id="registro">
+    <h2>Registro para el evento</h2>
+
+    <form>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <button type="submit" aria-label="Enviar formulario de registro al clásico">Registrarse</button>
+    </form>
+</section>
+
+</main>
+
+<aside>
+    <h2>Dato curioso</h2>
+    <p>El Clásico es uno de los partidos más vistos del mundo, con millones de espectadores.</p>
+</aside>
+
+<footer>
+    <p>&copy; 2026 Evento Deportivo - El Clásico</p>
+</footer>
+
+</body>
+</html>
