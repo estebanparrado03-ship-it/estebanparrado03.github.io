@@ -1,2 +1,14 @@
+# Página Web - El Clásico
+
 ## Propósito
-Esta página presenta información sobre el partido "El Clásico" entre Real Madrid y FC Barcelona, uno de los eventos más importantes del fútbol mundial.
+Presentar información sobre el partido Real Madrid vs FC Barcelona.
+
+## Tecnologías
+- HTML5 semántico
+- Accesibilidad básica
+
+## Cómo usar
+1. Abrir index.html en navegador
+
+## Autor
+Juan Parrado
